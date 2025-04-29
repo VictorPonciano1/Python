@@ -1,4 +1,4 @@
-# Testes da linguagem
+# EXC 0 - Testes da linguagem
 print('Hello World!')
 
 nome = 'victor'
