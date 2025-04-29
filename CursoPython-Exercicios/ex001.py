@@ -1,4 +1,4 @@
-# EXC1 - Crie um programa que escreve "Olá Mundo!" na tela
+# EXC 1 - Crie um programa que escreve "Olá Mundo!" na tela
 
 print('Olá Mundo!')
 
