@@ -4,10 +4,11 @@ algo = input('Digite algo: ')
 
 tamanho = len(algo) # Função adicional
 
+# Saída de Dados de formas diferentes para testes de funcionalidade
 print('O tipo primitivo do que você digitou é {}'.format(type(algo)))
 print('É numérico? {}'.format(algo.isnumeric()))
 print('Tamanho desse algo digitado: {}'.format(tamanho))
-print('É um valor alfabético (apenas caracteres)? {}'.format(algo.isalpha()))
+print('É um valor alphabético (apenas caracteres)? {}'.format(algo.isalpha()))
 print('É alphanumérico? {}'.format(algo.isalnum()))
 print('Está totalmente em Minúsculo?', algo.islower())
 print('Está totalmente em Maiúsculo?', algo.isupper())
