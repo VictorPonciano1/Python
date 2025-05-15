@@ -2,6 +2,8 @@
 
 > Desenvolvedor: Victor Ponciano
 
+<!-- Isso será removido depois: dar um git pull ou clonar esse repositório antes de mexer com mais coisas da linguagem para não perder os códigos já versionados -->
+
 Repositório de códigos Python. No momento inclui apenas exercícios de treinamento sobre a linguagem.
 
 O conteúdo do arquivo ".gitignore" faz referência ao local original dos primeiros códigos deste repositório.
