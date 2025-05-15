@@ -4,4 +4,4 @@ print('Olá Mundo!')
 
 frase = input('Escreva: ')
 
-print(frase)
+print('\033[0;32m', frase)
