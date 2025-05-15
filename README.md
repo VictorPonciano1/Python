@@ -6,7 +6,7 @@
 
 Repositório de códigos Python. No momento inclui apenas exercícios de treinamento sobre a linguagem.
 
-O conteúdo do arquivo ".gitignore" faz referência ao local original dos primeiros códigos deste repositório.
+O conteúdo do arquivo ".gitignore" faz referência ao local original dos primeiros códigos deste repositório, pode ser que o conteúdo dentro dele não faça sentido dependendo do estado final do repositório.
 
 O diretório "CursoPython-Exercicios" possui duas formas diferentes de imprimir a saída dos dados com uso de f-strings (format).
 
