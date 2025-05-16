@@ -15,7 +15,9 @@ print(f'Tempo alugado: {dias} dias\nDistância percorrida: {distancia}km')
 print(f'Valor pelo número de dias: R${aluguel:.2f} - Valor pelo número de km: R${valorKm:.2f}')
 msg = f'Valor total: R${total:.2f}'
 
-if total > 500:
+if total > 1000:
     print(f'\033[1;31m{msg}')
+elif total <= 1000 and total > 500:
+    print(f'\033[1;33m{msg}')
 else:
-    print(f'\033[1;34m{msg}')
+    print(f'\033[1;32m{msg}')
