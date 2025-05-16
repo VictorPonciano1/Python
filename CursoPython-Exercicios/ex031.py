@@ -12,10 +12,10 @@ passagem = 0
 #     passagem = distancia * 0.45
 #     print(f'Distância da viagem: {distancia}km.\nValor total: R${passagem}')
 
-# Jeito 2 - if simplificdo (operador ternário)
+# Jeito 2 - if simplificdo (operador ternário) - Cores adicionadas
 
-print(f'Sua viagem tem a distância de {distancia}km')
+print(f'\033[1;34mSua viagem tem a distância de {distancia}km')
 
 passagem = distancia * 0.50 if distancia <= 200 else distancia * 0.45
 
-print(f'O preço da sua viagem é R${passagem}')
+print(f'O preço da sua viagem é R${passagem:.2f}\033[0m')

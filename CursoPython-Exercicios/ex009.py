@@ -3,12 +3,12 @@
 n = int(input('Digite um número: '))
 
 # Jeito 1 de fazer
-print('Tabuada do [{:1}]'.format(n))
+print(f'Tabuada do [{n}]')
 print('-' * 15)
-print('[{:1}] x  1 = {}\n[{:1}] x  2 = {}\n[{:1}] x  3 = {}'.format(n, (n*1), n, (n*2), n, (n*3)))
-print('[{:1}] x  4 = {}\n[{:1}] x  5 = {}\n[{:1}] x  6 = {}'.format(n, (n*4), n, (n*5), n, (n*6)))
-print('[{:1}] x  7 = {}\n[{:1}] x  8 = {}\n[{:1}] x  9 = {}'.format(n, (n*7), n, (n*8), n, (n*9)))
-print('[{:1}] x 10 = {}'.format(n, (n*10)))
+print(f'[{n}] x  1 = {n*1}\n[{n}] x  2 = {n*2}\n[{n}] x  3 = {n*3}')
+print(f'[{n}] x  4 = {n*4}\n[{n}] x  5 = {n*5}\n[{n}] x  6 = {n*6}')
+print(f'[{n}] x  7 = {n*7}\n[{n}] x  8 = {n*8}\n[{n}] x  9 = {n*9}')
+print(f'[{n}] x 10 = {n*10}')
 print('-' * 15)
 
 # Jeito 2 que eu pensei - Basicamente só está ocupando espaço como um comentário

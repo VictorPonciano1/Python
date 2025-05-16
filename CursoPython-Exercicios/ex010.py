@@ -10,7 +10,7 @@ cambio = dinheiro / dolar
 cambioInteiro = dinheiro // dolar
 
 # Exibição
-print('Dólares que você pode comprar: USD ${:.2f}'.format(cambio))
-print('Dólares inteiros (sem centavos): USD ${}'.format(cambioInteiro))
+print(f'Dólares que você pode comprar: USD ${cambio:.2f}')
+print(f'Dólares inteiros (sem centavos): USD ${cambioInteiro}')
 
 # Nota - Possível também fazer com outras moedas seguindo esses princípios

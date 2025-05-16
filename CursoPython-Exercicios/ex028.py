@@ -4,6 +4,10 @@ O programa deverá escrever na tela se o usuário venceu ou perdeu """
 import random
 from time import sleep
 
+cores = {'cls':'\033[0m',
+         'green':'\033[1;32m',
+         'red':'\033[1;31m'}
+
 print('Eu, o SUPER COMPUTADOR, pensei em um número!')
 
 pc = random.randint(0, 5)
@@ -13,6 +17,6 @@ print('---PROCESSANDO---')
 sleep(3) # Faz com que o código tenha uma espécie de delay
 
 if numero == pc:
-    print('Parabéns, você me venceu')
+    print(f'{cores["green"]}Parabéns, você me venceu.{cores["cls"]}')
 else:
-    print('Hahaha, você errou! Tente na próxima.')
+    print(f'{cores["red"]}Hahaha, você errou! Tente na próxima.{cores["cls"]}')

@@ -6,7 +6,7 @@ n2 = int(input('Digite outro número: '))
 
 soma = n1 + n2
 
-print('A soma entre {} e {} é igual a {}'.format(n1, n2, soma))
+print(f'A soma entre {n1} e {n2} é igual a {soma}')
 
 # Adicional - Divisão entre dois números
 
@@ -16,4 +16,4 @@ n4 = float(input(''))
 
 q = n3 / n4
 
-print('A divisão entre {} e {} é igual a {}'.format(n3, n4, q))
+print(f'A divisão entre {n3} e {n4} é igual a {2}')

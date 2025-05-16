@@ -6,10 +6,15 @@
 
 nome = str(input('Digite seu nome completo: ')).strip()
 
+cores = {'cls':'\033[0m',
+         'red':'\033[1;31m',
+         'blue':'\033[1;34m',
+         'back':'\033[1;90;42m'} # Back = Background = Fundo da mensagem
+
 print('Impressão de todas as operações:')
-print(f'Nome com letras inteiramente maiúsculas: {nome.upper()}')
-print(f'Nome inteiramente em minúsculas: {nome.lower()}')
-print(f'Total de letras (sem espaços): {len(nome)-nome.count(' ')}')
+print(f'{cores["red"]}Nome com letras inteiramente maiúsculas: {nome.upper()}{cores["cls"]}')
+print(f'{cores["blue"]}Nome inteiramente em minúsculas: {nome.lower()}{cores["cls"]}')
+print(f'{cores["back"]}Total de letras (sem espaços): {len(nome)-nome.count(' ')}{cores["cls"]}')
 
 lista = nome.split()
 

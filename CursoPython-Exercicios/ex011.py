@@ -11,4 +11,4 @@ tamanho = altura * largura
 tinta = tamanho / 2
 
 # Exibindo resultado
-print('Tamaho da sua parede: {}m²\nLitros necessários para a parede: {}L'.format(tamanho, tinta))
+print(f'Tamaho da sua parede: {tamanho}m²\nLitros necessários para a parede: {tinta}L')

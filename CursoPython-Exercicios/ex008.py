@@ -16,5 +16,5 @@ km = distancia / 1000
 dm = distancia * 10
 
 # Exibindo
-print('Metros: {}\nCentímetros: {}\nMilímetros: {}\nQuilômetros: {}'.format(distancia, cm, mm, km))
-print('Decimetros: {}'.format(dm))
+print(f'Metros: {distancia}\nCentímetros: {cm}\nMilímetros: {mm}\nQuilômetros: {km}')
+print(f'Decimetros: {dm}')

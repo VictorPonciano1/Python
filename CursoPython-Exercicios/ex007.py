@@ -6,5 +6,10 @@ nota2 = float(input('Digite a segunda nota: '))
 media = (nota1 + nota2) / 2
 
 # Imprimindo com 1 casa decimal já trabalhando com as regras de arredondamento
-print('Notas no aluno: {:.1f} e {:.1f}'.format(nota1, nota2))
-print('Média do aluno: {:.1f}'.format(media))
+print(f'Notas no aluno: {nota1:.1f} e {nota2:.1f}')
+res = f'Média do aluno: {media:.1f}'
+
+if media >= 6:
+    print(f'\033[1;34m{res}\033[0m') # Imprime Azul
+else:
+    print(f'\033[1;31m{res}\033[0m') # Imprime Vermelho

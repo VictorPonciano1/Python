@@ -3,4 +3,4 @@
 nome = input('Digite seu nome: ')
 
 print('Boas vindas', nome, '! Este é um código python')
-print('Boas vindas, {}! Este é um código Python com saída formatada'.format(nome)) # Saída formatada
+print(f'Boas vindas, {nome}! Este é um código Python com saída formatada') # Saída formatada

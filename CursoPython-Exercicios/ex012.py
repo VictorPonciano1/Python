@@ -10,5 +10,5 @@ desconto = preco - ((preco * 5) / 100)
 # desconto = preco - (preco * 0.05) -> Porcentagem = n / 100
 
 # Exibição
-print('Produto: {}\nPreço Original: {:.2f}'.format(produto, preco))
-print('Preço com Desconto de 5%: {:.2f}'.format(desconto))
+print(f'Produto: {produto}\nPreço Original: {preco:.2f}')
+print(f'Preço com Desconto de 5%: {desconto:.2f}')

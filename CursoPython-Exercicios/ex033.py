@@ -7,29 +7,29 @@ n3 = int(input('Digite o terceiro número: '))
 
 # Verificação primária: para caso existem números iguais
 if n1 == n2 or n2 == n3 or n3 == n1:
-    print('Existem números iguais')
+    print('\033[1;31mExistem números iguais!\033[0m')
     exit()
 
 # Verificação caso n1 > n2 e n3:
 if n1 > n2 and n1 > n3:
-    print(f'Maior: {n1}')
+    print(f'\033[1;32mMaior: {n1}')
     if n2 > n3:
-        print(f'Do meio: {n2}\nMenor: {n3}')
+        print(f'\033[1;32mDo meio: {n2}\nMenor: {n3}')
     else:
-        print(f'Do meio: {n3}\nMenor{n2}')
+        print(f'\033[1;32mDo meio: {n3}\nMenor{n2}')
 
 # Verificação caso n2 > n1 e n3
 if n2 > n1 and n2 > n3:
-    print(f'Maior: {n2}')
+    print(f'\033[1;32mMaior: {n2}')
     if n1 > n3:
-        print(f'Do meio: {n1}\nMenor: {n3}')
+        print(f'\033[1;32mDo meio: {n1}\nMenor: {n3}')
     else:
-        print(f'Do Meio: {n3}\nMenor: {n1}')
+        print(f'\033[1;32mDo Meio: {n3}\nMenor: {n1}')
 
 # Verificação caso n3 > n1 e n2
 if n3 > n1 and n3 > n2:
-    print(f'Maior: {n3}')
+    print(f'\033[1;32mMaior: {n3}')
     if n1 > n2:
-        print(f'Do meio: {n1}\nMenor: {n2}')
+        print(f'\033[1;32mDo meio: {n1}\nMenor: {n2}')
     else:
-        print(f'Do meio: {n2}\nMenor: {n1}')
+        print(f'\033[1;32mDo meio: {n2}\nMenor: {n1}')

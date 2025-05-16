@@ -3,8 +3,7 @@
 number = int(input('Digite um número: '))
 
 # Jeito 1 de imprimir os valores
-print('Número digitado: {}\nAntecessor: {}\nSucessor: {}'.format(number, number-1, number+1))
-
+print(f'Número digitado: {number}\nAntecessor: {number-1}\nSucessor: {number+1}')
 # Espaçamento
 print('')
 
@@ -12,4 +11,4 @@ print('')
 antecessor = number-1
 sucessor = number+1
 
-print('Número: {}\nAntecessor: {}\nSucessor: {}'.format(number, antecessor, sucessor))
+print(f'Número: {number}\nAntecessor: {antecessor}\nSucessor: {sucessor}')

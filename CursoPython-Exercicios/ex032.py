@@ -4,6 +4,8 @@ import datetime
 
 ano = int(input('Digite o ano de sua preferência (0 representa o ano atual): '))
 
+cores = {'cls':'\033[0m'}
+
 # Transforma o número "0" no ano atual
 if ano == 0:
     ano = datetime.date.today().year
