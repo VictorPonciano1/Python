@@ -25,7 +25,7 @@ bio = str(input('Qual o seu sexo biológico? Digite \"M\" para Masculino e \"F\"
 
 if bio == 'F':
     print('Você é mulher. Seu alistamento não é obrigatório.')
-else:
+elif bio == 'M':
     print('Você é homem. Seu alistamento é obrigatório.')
     if idade == 18:
         print(f'{cores["yellow"]}Está no ano que você deve se alistar.{cores["cls"]}')
@@ -37,3 +37,5 @@ else:
         diferenca = idade - 18
         print(f'{cores["red"]}Você deveria ter se alistado a {diferenca} ano(s).{cores["cls"]}')
         print(f'Seu ano de alistamento foi {agora - diferenca}')
+else:
+    print(f'{cores["red"]}Digite um sexo biológico válido.{cores["cls"]}')
