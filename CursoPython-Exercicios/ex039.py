@@ -21,13 +21,19 @@ nascimento = int(input('Digite em qual ano você nasceu: '))
 idade = agora - nascimento
 print(f'Você está com {idade} anos.')
 
-if idade == 18:
-    print(f'{cores["yellow"]}Está no ano que você deve se alistar.{cores["cls"]}')
-elif idade < 18:
-    diferenca = 18 - idade
-    print(f'{cores["green"]}Ainda falta(m) {diferenca} ano(s) até que você precise se alistar{cores["cls"]}')
-    print(f'Seu ano de alistamento será {agora + diferenca}')
+bio = str(input('Qual o seu sexo biológico? Digite \"M\" para Masculino e \"F\" para feminino: ')).upper()
+
+if bio == 'F':
+    print('Você é mulher. Seu alistamento não é obrigatório.')
 else:
-    diferenca = idade - 18
-    print(f'{cores["red"]}Você deveria ter se alistado a {diferenca} ano(s).{cores["cls"]}')
-    print(f'Seu ano de alistamento foi {agora - diferenca}')
+    print('Você é homem. Seu alistamento é obrigatório.')
+    if idade == 18:
+        print(f'{cores["yellow"]}Está no ano que você deve se alistar.{cores["cls"]}')
+    elif idade < 18:
+        diferenca = 18 - idade
+        print(f'{cores["green"]}Ainda falta(m) {diferenca} ano(s) até que você precise se alistar{cores["cls"]}')
+        print(f'Seu ano de alistamento será {agora + diferenca}')
+    else:
+        diferenca = idade - 18
+        print(f'{cores["red"]}Você deveria ter se alistado a {diferenca} ano(s).{cores["cls"]}')
+        print(f'Seu ano de alistamento foi {agora - diferenca}')
