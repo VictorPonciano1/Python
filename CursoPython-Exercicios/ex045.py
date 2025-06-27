@@ -1,5 +1,5 @@
 ''' EXC 45 - Crie um programa que faça o computador jogar Jokenpô com você.
-NOTA: O código acabou ficando grande pela estrutura e lógica que o compõe'''
+NOTA DO DEV: O código acabou ficando grande pela estrutura e lógica que eu acebei desenvolvendo, existem maneiras mais fáceis de fazer esse código'''
 
 import random
 
