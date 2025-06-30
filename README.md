@@ -14,4 +14,6 @@ O diretório "CursoPython-Exercicios" possui duas formas diferentes de imprimir 
 
 Abaixo, toda a listagem do conteúdo deste repositório junto de seu propósito.
 
+<!-- MUDAR DEPOIS O NOME DESSA PASTA PARA INTEGRAR OS EXERCÍCIOS COM OS TESTES DAS AULAS E INCREMENTAR O REPOSITÓRIO -->
+
 + CursoPython-Exercicios: contém inúmeros exercícios realizados durante um curso para treinamento da linguagem e sua sintaxe - AVISO: alguns códigos podem não funcionar devido ao uso de Bibliotecas externas;
