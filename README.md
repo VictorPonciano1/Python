@@ -14,7 +14,4 @@ O diretório "CursoPython-Exercicios" possui duas formas diferentes de imprimir 
 
 Abaixo, toda a listagem do conteúdo deste repositório junto de seu propósito.
 
-#### CursoPython-Códigos
-Diretório dividido em 2 pastas com os códigos do curso.
-- exercicios: contém todos os exercícios feitos;
-- aulas-exemplos: contém os exercícios feitos nas vídeoaulas - as aulas inicias não estão presents pois eram introdutórias;
+- CursoPython-Códigos: Códigos provenientes do Curso de Python do canal/plataforma Curso em Vídeo, ministrado pelo professor Gustavo Guanabara.
