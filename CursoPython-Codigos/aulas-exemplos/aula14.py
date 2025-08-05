@@ -1,0 +1,1 @@
+''' Usado para testes '''
