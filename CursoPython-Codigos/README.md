@@ -12,4 +12,4 @@ Listagem do conteúdo do Diretório:
 - exercicios: contém todos os exercícios feitos;
 - aulas-exemplos: contém os exercícios feitos nas vídeoaulas - as aulas inicias não estão presents pois eram introdutórias;
 
-> Este Curso contém exercícios e códigos de diversos níveis, sejam iniciantes ou avançados.
+> Este Curso contém exercícios e códigos de diversos níveis, sejam iniciantes, intermediários ou avançados.
