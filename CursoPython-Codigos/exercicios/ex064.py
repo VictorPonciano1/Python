@@ -12,4 +12,4 @@ while digitos < 999:
         numeros += 1
         soma = soma + digitos
 
-print(f'Foram digitados {numeros} numeros e a soma de todos foi de {soma}')
+print(f'Foram digitados {numeros} números e a soma de todos foi de {soma}')
